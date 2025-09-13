@@ -8,6 +8,6 @@ void setup(){
 void draw(){
   background(220);
    pelota.mover();
-  
+   pelota.rebotar();
   pelota.mostrar();
 }
