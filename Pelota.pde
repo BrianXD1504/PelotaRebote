@@ -18,14 +18,7 @@ class Pelota {
     x += velX;
     y += velY;
   }
-  public void rebotar() {
-    if (x < r || x > width - r) {
-      velX *= -1;
-    }
-    if (y < r || y > height - r) {
-      velY *= -1;
-    }
-  }
+  
 public void mostrar() {
     ellipse(x, y, r*2, r*2);
   }
